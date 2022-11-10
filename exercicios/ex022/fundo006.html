@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imagem de fundo</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /* 
+                Ordem Shorthand background
+                color > image > position/[size] repeat > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center top/cover no-repeat fixed;
+            
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,7 +38,11 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ex modi velit ratione expedita vero iure! Commodi voluptatibus illum minima reprehenderit at quaerat hic laboriosam, eum nostrum ut fuga cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non autem in minima, nostrum, facilis porro officiis sit assumenda, accusantium voluptate aut exercitationem vitae dolorum ipsam maxime voluptas explicabo vel. Repellat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias consequuntur sit inventore ipsa, officia maxime saepe enim obcaecati laborum provident expedita iste amet hic perspiciatis. Ratione dolorem aperiam optio!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ex modi velit ratione expedita vero iure! Commodi voluptatibus illum minima reprehenderit at quaerat hic laboriosam, eum nostrum ut fuga cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non autem in minima, nostrum, facilis porro officiis sit assumenda, accusantium voluptate aut exercitationem vitae dolorum ipsam maxime voluptas explicabo vel. Repellat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias consequuntur sit inventore ipsa, officia maxime saepe enim obcaecati laborum provident expedita iste amet hic perspiciatis. Ratione dolorem aperiam optio!  </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ex modi velit ratione expedita vero iure! Commodi voluptatibus illum minima reprehenderit at quaerat hic laboriosam, eum nostrum ut fuga cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non autem in minima, nostrum, facilis porro officiis sit assumenda, accusantium voluptate aut exercitationem vitae dolorum ipsam maxime voluptas explicabo vel. Repellat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias consequuntur sit inventore ipsa, officia maxime saepe enim obcaecati laborum provident expedita iste amet hic perspiciatis. Ratione dolorem aperiam optio!  </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ex modi velit ratione expedita vero iure! Commodi voluptatibus illum minima reprehenderit at quaerat hic laboriosam, eum nostrum ut fuga cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non autem in minima, nostrum, facilis porro officiis sit assumenda, accusantium voluptate aut exercitationem vitae dolorum ipsam maxime voluptas explicabo vel. Repellat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias consequuntur sit inventore ipsa, officia maxime saepe enim obcaecati laborum provident expedita iste amet hic perspiciatis. Ratione dolorem aperiam optio!  </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ex modi velit ratione expedita vero iure! Commodi voluptatibus illum minima reprehenderit at quaerat hic laboriosam, eum nostrum ut fuga cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non autem in minima, nostrum, facilis porro officiis sit assumenda, accusantium voluptate aut exercitationem vitae dolorum ipsam maxime voluptas explicabo vel. Repellat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias consequuntur sit inventore ipsa, officia maxime saepe enim obcaecati laborum provident expedita iste amet hic perspiciatis. Ratione dolorem aperiam optio!  </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ex modi velit ratione expedita vero iure! Commodi voluptatibus illum minima reprehenderit at quaerat hic laboriosam, eum nostrum ut fuga cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Non autem in minima, nostrum, facilis porro officiis sit assumenda, accusantium voluptate aut exercitationem vitae dolorum ipsam maxime voluptas explicabo vel. Repellat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente molestias consequuntur sit inventore ipsa, officia maxime saepe enim obcaecati laborum provident expedita iste amet hic perspiciatis. Ratione dolorem aperiam optio!  </p>
     </main>
 </body>
 </html>
